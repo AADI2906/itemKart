@@ -1,0 +1,17 @@
+.aboutSection {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    position: fixed;
+  }
+  
+  .aboutSectionGradient {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(78, 81, 255),
+      rgb(74, 137, 189)
+    );
+  }
